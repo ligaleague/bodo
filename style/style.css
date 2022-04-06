@@ -14,6 +14,8 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
+    background-color: #F66B30;
+    font-family: 'Roboto', sans-serif;
 }
 
 html{
