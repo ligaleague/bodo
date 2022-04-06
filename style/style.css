@@ -59,3 +59,12 @@ html::-webkit-scrollbar-thumb{
     border-bottom: .1vh solid var(--main-color);
     padding-bottom: .3vh;
 }
+
+.qr-codes-holder{
+    position: fixed;
+    bottom: 1vh;
+    right: 1vh;
+}
+.qr-codes-holder img{
+    width: 21vh;
+}
