@@ -45,6 +45,7 @@ html::-webkit-scrollbar-thumb{
 
 .header .logo img{
     height: 6vh;
+    transform: rotate(350deg);
 }
 .header .navbar{
     margin-right: 17vh;
