@@ -33,5 +33,32 @@
 }
 
 .maindivbot {
+    display: flex;
+    padding-top: 5vh;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+    text-shadow: 2px 1.5px 0px #fff, 4.5px 4px 0px rgba(0,0,0,0.15);
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+    text-shadow: 2px 1.5px 0px #fff, 4.5px 4px 0px rgba(0,0,0,0.15);
+}
+
+.BeforeScroll
+{
+    font-size: 3vh;
+
+}
+
+.AfterScroll
+{
+    font-size: 5vh;
 
 }
