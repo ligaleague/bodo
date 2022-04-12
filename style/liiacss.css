@@ -35,6 +35,7 @@
 .maindivbot {
     display: flex;
     padding-top: 5vh;
+    height: auto;
 }
 
 .left {
