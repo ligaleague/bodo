@@ -7,9 +7,9 @@ const callback = (entries, observer) => {
         if (entry.isIntersecting) {
             entry.target.classList.add("fadeIn")
         }
-        else {
-            entry.target.classList.remove("fadeIn")
-        }
+        // else {
+        //     entry.target.classList.remove("fadeIn")
+        // }
     })
 }
 
