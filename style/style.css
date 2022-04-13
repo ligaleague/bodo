@@ -15,7 +15,8 @@ html,body{
 .carusel-holder{
 	padding: 50px;
 	height: 100%;
-	background-color: #D2D6C9;
+	background: rgb(64,179,228);
+	background: radial-gradient(circle, rgba(64,179,228,1) 0%, rgba(67,205,40,1) 100%);
 }
 .wrapper{
 	height: 100%;

@@ -38,7 +38,8 @@ html::-webkit-scrollbar-thumb{
 }
 
 .header{
-    background: #F66B30;
+    background: rgb(34,195,100);
+    background: linear-gradient(180deg, rgba(34,195,100,1) 0%, rgba(253,187,45,1) 100%);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -75,7 +76,8 @@ html::-webkit-scrollbar-thumb{
     width: 21vh;
 }
 .maindiv{
-    background-color: #F66B30;
+    background: rgb(34,195,100);
+    background: linear-gradient(0deg, rgba(34,195,100,1) 0%, rgba(253,187,45,1) 100%);
 }
 .text-delivery{
     width: 30vh;
