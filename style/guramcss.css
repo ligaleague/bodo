@@ -77,4 +77,10 @@ html::-webkit-scrollbar-thumb{
 .maindiv{
     background-color: #F66B30;
 }
+.text-delivery{
+    width: 30vh;
+    margin: auto;
+    font-size: 5vh;
+    font-family: 'Bebas Neue', cursive;
+}
 
