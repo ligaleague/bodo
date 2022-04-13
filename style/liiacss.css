@@ -45,6 +45,7 @@
     display: flex;
     padding-top: 5vh;
     height: auto;
+    padding-bottom: 5vh;
 }
 
 .left {
