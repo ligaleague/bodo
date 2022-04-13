@@ -17,6 +17,7 @@
     width: 50%;
     justify-content: flex-end;
     align-items: flex-end;
+    padding-right: 15vh;
 }
 
 .rightdiv {
