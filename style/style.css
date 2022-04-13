@@ -8,12 +8,14 @@
 /*Стили для демонстрации*/
 html,body{
 	height: 100%;
-	background-color: #D2D6C9;
+	/*background-color: #D2D6C9;*/
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 25px;
 }
 .carusel-holder{
 	padding: 50px;
+	height: 100%;
+	background-color: #D2D6C9;
 }
 .wrapper{
 	height: 100%;
