@@ -36,3 +36,36 @@ div1.style.transform="translateX(0px)";
 
 let div2=document.getElementById("animtextbot");
 div2.style.transform="translateX(0px)";
+
+function changepic (path,map){
+
+    picdiv =document.getElementById("mappic");
+
+    mapdiv =document.getElementById("map");
+
+    picdiv.style.transform="translateX(1200px)";
+
+    setTimeout(function (){
+        picdiv.src=`img/map/${path}`;
+
+        picdiv.style.transform="translateX(0px)";
+
+
+    },1000)
+
+    setTimeout(function (){
+
+        mapdiv.src=`img/map/${map}`;
+
+        mapdiv.style.opacity=100;
+
+
+    },1600)
+
+    // picdiv.src=`img/map/${path}`;
+
+    // mapdiv.src=`img/map/${map}`;
+
+    // mapdiv.style.opacity=100;
+
+}

@@ -60,6 +60,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ullamcorper 
 </div>
     </div>
 </div>
+<div class="map">
+    <div class="buttonsmap">
+        <button >მარჯანიშვილი</button>
+        <button onclick="changepic(`digomi.png`,`digomimap.png`)">დიღომი</button>
+        <button>ისანი/სამგორი</button>
+        <button onclick="changepic(`temka.png`,`temkamap.png`)">ტემქა</button>
+        <button>ვაკე</button>
+    </div>
+    <div style="position: relative;" class="mapimage">
+        <img id="mappic" style="transition:transform 1s; " src="img/map/digomi.png">
+        <img  id="map" style="z-index: 1;position: absolute;opacity:0;transition: opacity 2s;" src="img/map/digomimap.png">
+    </div>
+
+</div>
             <!--carusel started-->
 <div class="carusel-holder">
     <div class="text-delivery">Delivery Areas</div>
