@@ -86,6 +86,7 @@ html::-webkit-scrollbar-thumb{
     margin: auto;
     font-size: 5vh;
     font-family: 'Bebas Neue', cursive;
+    text-align: center;
 }
 
 /*form*/
@@ -161,3 +162,12 @@ span.input-group-addon i {
 }
 
 
+@media all and (max-width: 960px){
+    .qr-codes-holder{
+        display: none;
+    }
+    .dit{display: none}
+}
+@media all and (max-width: 960px){
+
+}
