@@ -37,11 +37,23 @@ div1.style.transform="translateX(0px)";
 let div2=document.getElementById("animtextbot");
 div2.style.transform="translateX(0px)";
 
+let flag=1;
+
+// if (flag=1) {
+//
+//     let divop = document.getElementById("");
+//
+// }
+
 function changepic (path,map){
 
     picdiv =document.getElementById("mappic");
 
     mapdiv =document.getElementById("map");
+
+    mapdiv.style.opacity=0;
+
+    mapdiv.style.transition="opacity 0s";
 
     picdiv.style.transform="translateX(1200px)";
 
@@ -56,6 +68,8 @@ function changepic (path,map){
     setTimeout(function (){
 
         mapdiv.src=`img/map/${map}`;
+
+        mapdiv.style.transition="opacity 2s";
 
         mapdiv.style.opacity=100;
 
