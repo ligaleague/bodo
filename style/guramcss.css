@@ -71,9 +71,11 @@ html::-webkit-scrollbar-thumb{
     position: fixed;
     bottom: 1vh;
     right: 1vh;
+    z-index: 10;
 }
 .qr-codes-holder img{
     width: 21vh;
+
 }
 .maindiv{
     background: rgb(34,195,100);
