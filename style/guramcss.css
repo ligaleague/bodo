@@ -194,10 +194,8 @@ span.input-group-addon i {
         display: none;
     }
     .dit{display: none}
+
 }
 @media all and (max-width: 450px){
-    .qr-codes-holder{
-        display: none;
-    }
-    .dit{display: none}
+
 }
