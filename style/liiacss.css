@@ -191,12 +191,19 @@
 
 
 
-
-@media all and (max-width: 960px){
-
+@media (max-width: 991px){
     .map{
         display: none;
     }
 }
+
+@media  (max-width: 768px){
+
+}
+@media all and (max-width: 450px){
+
+}
+
+
 
 
