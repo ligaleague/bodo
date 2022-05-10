@@ -170,7 +170,7 @@ span.input-group-addon i {
         display: none
     }
     .container img{
-        width: 55%;
+        width: 50%;
         margin-left: 0px;
     }
     .container{
@@ -179,6 +179,12 @@ span.input-group-addon i {
     .main-form{
         margin-left:0vh !important;
         width: 10%;
+    }
+    .header .navbar{
+        margin-right: 2vh;
+    }
+    .header .navbar a{
+        font-size: 1.8vh;
     }
 
 }
