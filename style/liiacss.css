@@ -1,3 +1,4 @@
+
 .maindivbot {
     width: 100%;
     height: 25vh;
@@ -37,6 +38,7 @@
 
 .rightdiv {
     font-size: 3vh;
+    width: auto;
 }
 
 .maindivbottoptext {
@@ -120,6 +122,11 @@
     align-items: center;
 }
 
+.mediaicon:hover {
+    background: rgb(168,129,5);
+    background: linear-gradient(48deg, rgba(168, 129, 5, 0.5) 0%, rgba(9,121,32,0.5) 47%, rgba(247,255,0,0.5) 100%);
+}
+
 #animtexttop {
     transform: translateX(600px);
     font-size: 6vh;
@@ -191,18 +198,43 @@
 
 
 
-@media (max-width: 991px){
-    .map{
+@media (max-width: 980px) {
+    .map {
         display: none;
     }
+    #big {
+        font-size: 2.5vh;
+    }
+
+    #animtexttop{
+        font-size: 2.5vh;
+    }
+
+    #animtextbot{
+        font-size: 1.5vh;
+        margin-bottom: 1.5vh;
+    }
+
+    #animtextmiddle{
+        font-size: 1.4vh;
+    }
+
+    .right{
+        font-size: 1.5vh;
+    }
+
+    .left{
+        font-size: 1.5vh;
+
+    }
+    .image {
+        padding-right: 4vh;
+    }
+
 }
 
-@media  (max-width: 768px){
 
-}
-@media all and (max-width: 450px){
 
-}
 
 
 

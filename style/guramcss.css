@@ -1,3 +1,4 @@
+
 :root{
     --main-color: #398832;
     --black: #13131a;
@@ -136,7 +137,7 @@ input::-webkit-input-placeholder {
     color: #FFF;
     text-shadow: none;
     box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
-    margin-left: 3vh !important;
+    margin-left: 3vh!important;
     width: 30%;
 }
 span.input-group-addon i {
@@ -148,9 +149,9 @@ span.input-group-addon i {
 }
 .container{
     margin:auto;
-    margin-top: 5vh !important;
+    margin-top: 5vh!important;
     margin-bottom: 5vh;
-    width: 80% !important;
+    width: 80%!important;
     display: flex;
     justify-content: center;
 
@@ -161,23 +162,22 @@ span.input-group-addon i {
     margin-left: 15px;
 }
 
-
 @media (max-width: 991px){
     .qr-codes-holder{
         display: none;
     }
     .dit{
-        display: none
+        display: none;
     }
     .container img{
         width: 50%;
         margin-left: 0px;
     }
     .container{
-        width: auto !important;
+        width: auto!important;
     }
     .main-form{
-        margin-left:0vh !important;
+        margin-left:0vh!important;
         width: 10%;
     }
     .header .navbar{
@@ -193,9 +193,7 @@ span.input-group-addon i {
     .qr-codes-holder{
         display: none;
     }
-    .dit{display: none}
-
-}
-@media all and (max-width: 450px){
-
+    .dit{
+        display: none;
+    }
 }
