@@ -57,6 +57,7 @@
 }
 
 .left {
+    display: none;
     transform: translateX(-300px);
     opacity: 0;
     display: flex;
@@ -69,6 +70,7 @@
 }
 
 .right {
+    display: none;
     transform: translateX(300px);
     opacity: 0;
     display: flex;
@@ -81,6 +83,8 @@
 }
 
 .fadeIn {
+    margin-left: 20vh;
+    display: block;
     opacity: 1;
     transform: translateX(0px);
 }
