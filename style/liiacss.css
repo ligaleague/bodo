@@ -208,24 +208,28 @@
 
     #animtexttop{
         font-size: 2.5vh;
+        transform: translateX(0px);
     }
 
     #animtextbot{
         font-size: 1.5vh;
         margin-bottom: 1.5vh;
+        transform: translateX(0px);
     }
 
     #animtextmiddle{
         font-size: 1.4vh;
+        transform: translateX(0px);
     }
 
     .right{
         font-size: 1.5vh;
+        transform: translateX(0px);
     }
 
     .left{
         font-size: 1.5vh;
-
+        transform: translateX(0px);
     }
     .image {
         padding-right: 4vh;
