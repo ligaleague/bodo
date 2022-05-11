@@ -83,8 +83,8 @@
 }
 
 .fadeIn {
-    margin-left: 20vh;
-    display: block;
+    /*margin-left: 20vh;*/
+    display: flex;
     opacity: 1;
     transform: translateX(0px);
 }
@@ -132,18 +132,18 @@
 }
 
 #animtexttop {
-    transform: translateX(600px);
+    transform: translateX(400px);
     font-size: 6vh;
     transition: transform 1.7s;
 }
 
 #animtextmiddle {
-    transform: translateX(600px);
+    transform: translateX(400px);
     transition: transform 2s;
 }
 
 #animtextbot {
-    transform: translateX(600px);
+    transform: translateX(400px);
     transition: transform 2.3s;
 }
 

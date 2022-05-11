@@ -31,11 +31,14 @@ myObserver.observe(img1)
 let div=document.getElementById("animtexttop");
 div.style.transform="translateX(0px)";
 
+
 let div1=document.getElementById("animtextmiddle");
 div1.style.transform="translateX(0px)";
 
+
 let div2=document.getElementById("animtextbot");
 div2.style.transform="translateX(0px)";
+
 
 let flag=1;
 
