@@ -6,7 +6,6 @@
 /*	box-sizing: border-box;*/
 /*}*/
 /*Стили для демонстрации*/
-
 html,body{
 	height: 100%;
 	/*background-color: #D2D6C9;*/
@@ -27,9 +26,9 @@ html,body{
 	align-items: center;
 }
 
-/*@media (max-width:767px){*/
-/*	.wrapper{padding: 50px 10px;}*/
-/*}*/
+@media (max-width:767px){
+	.wrapper{padding: 50px 10px;}
+}
 
 /* Основные стили */
 
@@ -75,12 +74,20 @@ html,body{
 	position: relative;
 	padding: 0px 60px;
 }
+@media all and (max-width: 991px){
+	.wrapper{
+		padding: 0px;
+	}
+	.carusel-holder{
+		padding: 0px;
+	}
 
-/*@media (max-width:767px){*/
-/*	.slider {*/
-/*		padding: 0px 40px;*/
-/*	}*/
-/*}*/
+}
+@media (max-width:767px){
+	.slider {
+		padding: 0px 40px;
+	}
+}
 
 .slider .slick-arrow{
 	position: absolute;
@@ -132,14 +139,6 @@ html,body{
 	max-width: 100%;
 }
 .slider__item.slick-center{
-
+	
 }
-
-/*@media  (max-width: 970px){*/
-/*	#big {*/
-/*		font-size: 0.5vh;*/
-/*	}*/
-
-/*}*/
-
 
