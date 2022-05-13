@@ -170,8 +170,7 @@ span.input-group-addon i {
         display: none;
     }
     .container img{
-        width: 50%;
-        margin-left: 0px;
+        display: none;
     }
     .container{
         width: auto!important;
@@ -187,16 +186,4 @@ span.input-group-addon i {
         font-size: 1.8vh;
     }
 
-}
-
-@media  (max-width: 768px){
-    .qr-codes-holder{
-        display: none;
-    }
-    .dit{
-        display: none;
-    }
-    .container img{
-        display: none;
-    }
 }
