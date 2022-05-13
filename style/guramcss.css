@@ -196,4 +196,7 @@ span.input-group-addon i {
     .dit{
         display: none;
     }
+    .container img{
+        display: none;
+    }
 }
