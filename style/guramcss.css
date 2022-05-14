@@ -176,10 +176,12 @@ span.input-group-addon i {
     }
     .container{
         width: auto!important;
+        margin-top: 3vh!important;
+        margin-bottom: 3vh;
     }
     .main-form{
         margin-left:0vh!important;
-        width: 10%;
+        width: 80%;
     }
     .header .navbar{
         margin-right: 2vh;
