@@ -156,7 +156,19 @@ span.input-group-addon i {
     justify-content: center;
 
 }
-
+.terms-holder{
+    background: #6ee162;
+    margin-top: 3vh;
+    width: 50%;
+    margin: auto;
+    margin-left: 30%;
+}
+.terms-holder ul{
+    padding-left: 2.2vh;
+}
+.terms-holder ul li{
+    font-size: 2.2vh;
+}
 .container img{
     width: 68%;
     margin-left: 15px;
