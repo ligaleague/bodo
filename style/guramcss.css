@@ -177,6 +177,13 @@ span.input-group-addon i {
     letter-spacing: 3px;
 }
 @media (max-width: 991px){
+    .text-delivery{
+        font-size: 4vh;
+    }
+    .terms-holder{
+        width: 85%;
+        margin-left: 20%;
+    }
     .qr-codes-holder{
         display: none;
     }
