@@ -83,7 +83,7 @@ html::-webkit-scrollbar-thumb{
     background: linear-gradient(0deg, rgba(34,195,100,1) 0%, rgba(253,187,45,1) 100%);
 }
 .text-delivery{
-    width: 30vh;
+    width: 35vh;
     margin: auto;
     font-size: 5vh;
     font-family: 'Bebas Neue', cursive;
@@ -161,7 +161,9 @@ span.input-group-addon i {
     width: 68%;
     margin-left: 15px;
 }
-
+.form-group .btn:hover{
+    letter-spacing: 3px;
+}
 @media (max-width: 991px){
     .qr-codes-holder{
         display: none;

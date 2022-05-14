@@ -105,7 +105,7 @@
     margin: auto;
     display: block;
 }
-.terms  a, a:hover, a:focus, a:active {
+.terms  a, a:focus, a:active {
     text-decoration: none;
     color: inherit;
     margin-left: 35%;
@@ -199,7 +199,10 @@
     background: radial-gradient(circle, rgba(212,238,174,1) 0%, rgba(233,216,148,1) 100%);
     color: white;
 }
+.maindivbot .headerstext{
+    margin-bottom: 1.2vh;
 
+}
 
 
 @media (max-width: 980px) {
