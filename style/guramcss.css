@@ -66,6 +66,7 @@ html::-webkit-scrollbar-thumb{
     color:var(--main-color);
     border-bottom: .1vh solid var(--main-color);
     padding-bottom: .3vh;
+    text-decoration: none;
 }
 
 .qr-codes-holder{
@@ -182,6 +183,12 @@ span.input-group-addon i {
 .form-group .btn:hover{
     letter-spacing: 3px;
 }
+@media (max-width: 500px){
+    .container img{
+        display: block;
+    }
+
+}
 @media (max-width: 991px){
     .terms-holder ul li{
         font-size: 2.5vh;
@@ -220,3 +227,4 @@ span.input-group-addon i {
     }
 
 }
+
