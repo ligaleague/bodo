@@ -204,8 +204,14 @@
 
 }
 
+.buttons {
+    display: none;
+}
 
 @media (max-width: 980px) {
+    .buttons{
+        display: block;
+    }
     .map {
         display: none;
     }
