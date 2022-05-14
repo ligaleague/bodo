@@ -212,6 +212,13 @@
     .buttons{
         display: block;
     }
+
+    .buttons button{
+        width: 60%;
+        margin-bottom: 2vh;
+        border-radius: 50px;
+    }
+
     .map {
         display: none;
     }
