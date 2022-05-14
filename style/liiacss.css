@@ -90,6 +90,7 @@
 }
 
 .footer{
+    padding-top: 5vh;
     height: auto;
     background: rgb(193,163,30);
     background: radial-gradient(circle, rgba(193,163,30,1) 0%, rgba(190,233,148,1) 100%);
