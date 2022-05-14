@@ -157,18 +157,23 @@ span.input-group-addon i {
 
 }
 .terms-holder{
-    background: #6ee162;
-    margin-top: 3vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;    margin-top: 7vh;
     width: 50%;
-    margin: auto;
-    margin-left: 30%;
+    margin-left: 25%;
+    margin-bottom: 10vh;
+    background: rgb(222,238,190);
+    background: radial-gradient(circle, rgba(222,238,190,1) 0%, rgba(160,246,152,1) 100%);
+    padding: 4vh;
+    border-radius: 20px;
 }
 .terms-holder ul{
     padding-left: 2.2vh;
 }
 .terms-holder ul li{
-    font-size: 2.2vh;
+    font-size: 2.5vh;
+    margin-bottom: 1vh;
 }
+
 .container img{
     width: 68%;
     margin-left: 15px;
@@ -177,6 +182,10 @@ span.input-group-addon i {
     letter-spacing: 3px;
 }
 @media (max-width: 991px){
+    .terms-holder ul li{
+        font-size: 2vh;
+        margin-bottom: 0.7vh;
+    }
     .text-delivery{
         font-size: 4vh;
     }
