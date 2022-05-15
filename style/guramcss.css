@@ -254,3 +254,83 @@ span.input-group-addon i {
     text-align: center;
     margin-top: 2vh;
 }
+
+/*bodowork html*/
+
+.card-wrapper{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 60%;
+    margin-bottom: 2vh;
+}
+.card-holder{
+    width: 32%;
+    height: 100%;
+    border: 2px solid;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background: rgb(222,238,190);
+    background: radial-gradient(circle, rgba(222,238,190,1) 0%, rgba(160,246,152,1) 100%);
+    border-radius: 20px;
+}
+/*.card-holder{*/
+/*    width: 35%;*/
+/*    height: 100%;*/
+/*    border: 2px solid;*/
+/*    position: relative;*/
+/*}*/
+/*box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;    width: 50%;*/
+/*margin-left: 25%;*/
+/*margin-bottom: 10vh;*/
+/*background: rgb(222,238,190);*/
+/*background: radial-gradient(circle, rgba(222,238,190,1) 0%, rgba(160,246,152,1) 100%);*/
+/*padding: 4vh;*/
+/*border-radius: 20px;*/
+.card-name{
+    padding-bottom: 0.5vh;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 3vh;
+    border-bottom: 1px solid;
+    margin-bottom: 4vh;
+}
+.card-desc{
+    padding-left: 1.2vh;
+    font-size: 2vh;
+    width: 85%;
+    margin: auto;
+    height: 60%;
+
+}
+.card-desc ul li{
+    margin-bottom: 2vh;
+}
+.card-holder .button-holder button{
+    border-radius: 10px;
+    width: 70%;
+    background: rgb(255, 126, 44);
+    border: none;
+    color: white;
+    padding: 16px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.2vh;
+    transition:background 1s;
+    cursor: pointer;
+    align-self:flex-end;
+}
+.button-holder{
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+
+}
+.card-holder button:hover{
+    background: rgb(212,238,174);
+    background: radial-gradient(circle, rgba(212,238,174,1) 0%, rgba(233,216,148,1) 100%);
+    color: white;
+}
