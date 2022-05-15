@@ -233,7 +233,7 @@
 
     .buttonsmap button{
         /*width: 40px;*/
-        font-size: 0.8vh;
+        font-size: 1vh;
         width: auto;
         margin: 0.2vh;
     }
