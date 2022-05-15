@@ -156,7 +156,7 @@ span.input-group-addon i {
     width: 80%!important;
     display: flex;
     justify-content: center;
-
+    padding-bottom: 2.5vh;
 }
 .terms-holder{
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;    width: 50%;
@@ -183,12 +183,7 @@ span.input-group-addon i {
 .form-group .btn:hover{
     letter-spacing: 3px;
 }
-@media (max-width: 500px){
-    .container img{
-        display: block;
-    }
 
-}
 @media (max-width: 991px){
     .terms-holder ul li{
         font-size: 2.5vh;
@@ -208,16 +203,21 @@ span.input-group-addon i {
         display: none;
     }
     .container img{
-        display: none;
+        width: 90%;
+        margin-left: 0px;
+        margin-top: 0.8vh;
     }
     .container{
-        width: auto!important;
+        width: 100%;
         margin-top: 3vh!important;
-        margin-bottom: 3vh;
+        margin-bottom: 1.5vh;
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .main-form{
         margin-left:0vh!important;
-        width: 80%;
+        width: 90%;
     }
     .header .navbar{
         margin-right: 1.8vh;
@@ -225,6 +225,30 @@ span.input-group-addon i {
     .header .navbar a{
         font-size: 1.7vh;
     }
-
+    .text-work-bodo{
+        font-size: 1.7vh;
+    }
 }
 
+/*bodowork html*/
+
+.bodo-work-img{
+    padding-top: 5.5vh;
+    border-bottom: 1px solid;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.bodo-work-img img{
+    padding-bottom: 4vh;
+    width: 30%;
+}
+
+.text-work-bodo{
+
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2vh;
+}
