@@ -53,6 +53,7 @@ html::-webkit-scrollbar-thumb{
     position: fixed;
     top: 0.8vh;
     left: 2vh;
+    z-index: 1500;
 }
 .header .navbar{
     margin-right: 17vh;
@@ -275,19 +276,6 @@ span.input-group-addon i {
     background: radial-gradient(circle, rgba(222,238,190,1) 0%, rgba(160,246,152,1) 100%);
     border-radius: 20px;
 }
-/*.card-holder{*/
-/*    width: 35%;*/
-/*    height: 100%;*/
-/*    border: 2px solid;*/
-/*    position: relative;*/
-/*}*/
-/*box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;    width: 50%;*/
-/*margin-left: 25%;*/
-/*margin-bottom: 10vh;*/
-/*background: rgb(222,238,190);*/
-/*background: radial-gradient(circle, rgba(222,238,190,1) 0%, rgba(160,246,152,1) 100%);*/
-/*padding: 4vh;*/
-/*border-radius: 20px;*/
 .card-name{
     padding-bottom: 0.5vh;
     text-align: center;
@@ -299,7 +287,7 @@ span.input-group-addon i {
 }
 .card-desc{
     padding-left: 1.2vh;
-    font-size: 2vh;
+
     width: 85%;
     margin: auto;
     height: 60%;
@@ -307,6 +295,7 @@ span.input-group-addon i {
 }
 .card-desc ul li{
     margin-bottom: 2vh;
+    font-size: 2vh;
 }
 .card-holder .button-holder button{
     border-radius: 10px;
@@ -328,9 +317,26 @@ span.input-group-addon i {
     width: 80%;
     justify-content: center;
 
+
 }
 .card-holder button:hover{
     background: rgb(212,238,174);
     background: radial-gradient(circle, rgba(212,238,174,1) 0%, rgba(233,216,148,1) 100%);
     color: white;
+}
+@media (max-width: 991px){
+    .card-name{
+        font-size: 1.9vh;
+    }
+    .card-holder{
+        width: 45%;
+    }
+    .card-desc ul li{
+        font-size: 1.7vh;
+    }
+    .card-holder .button-holder button{
+        width: 90%;
+        font-size: 1.7vh;
+        margin-top: 2vh;
+    }
 }
