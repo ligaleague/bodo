@@ -166,7 +166,6 @@ span.input-group-addon i {
     background: radial-gradient(circle, rgba(222,238,190,1) 0%, rgba(160,246,152,1) 100%);
     padding: 4vh;
     border-radius: 20px;
-
 }
 .terms-holder ul{
     padding-left: 2.2vh;
@@ -185,6 +184,7 @@ span.input-group-addon i {
 }
 
 @media (max-width: 991px){
+
     .terms-holder ul li{
         font-size: 2.5vh;
         margin-bottom: 0.7vh;
@@ -195,6 +195,8 @@ span.input-group-addon i {
     .terms-holder{
         width: 85%;
         margin-left: 6%;
+        padding: 1.5vh;
+        margin-bottom: 5vh;
     }
     .qr-codes-holder{
         display: none;

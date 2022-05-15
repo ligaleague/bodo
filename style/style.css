@@ -76,10 +76,11 @@ html,body{
 }
 @media all and (max-width: 991px){
 	.wrapper{
-		padding: 0px;
+		padding-bottom: 10vh;
 	}
 	.carusel-holder{
 		padding: 0px;
+		height: 35%;
 	}
 
 }
