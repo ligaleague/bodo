@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/script-downloaded.js"></script>
 </head>
 <body>
 <div class="bodo-work-img"><img src="../img/cropped-12.png"></div>
@@ -42,7 +45,7 @@
                 <div class="cols-sm-10">
                     <div class="input-group">
                         <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-                        <input type="text" class="form-control" name="name" id="name" placeholder="სახელი"/>
+                        <input type="text" class="form-control" name="name" id="name"  placeholder="სახელი" required/>
                     </div>
                 </div>
             </div>
@@ -52,7 +55,7 @@
                 <div class="cols-sm-10">
                     <div class="input-group">
                         <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-                        <input type="text" class="form-control" name="name" id="lastname" placeholder="გვარი"/>
+                        <input type="text" class="form-control" name="lastname" id="lastname" placeholder="გვარი"/>
                     </div>
                 </div>
             </div>
@@ -62,7 +65,7 @@
                 <div class="cols-sm-10">
                     <div class="input-group">
                         <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
-                        <input type="email" class="form-control" name="username" id="Mail" placeholder="ელ.პოსტა"/>
+                        <input type="email" class="form-control" name="Mail" id="Mail" placeholder="ელ.პოსტა"/>
                     </div>
                 </div>
             </div>
@@ -72,12 +75,12 @@
                 <div class="cols-sm-10">
                     <div class="input-group">
                         <span class="input-group-addon"><i class="fa fa-phone fa-lg" aria-hidden="true"></i></span>
-                        <input type="number" class="form-control" name="password" id="number" placeholder="ტელეფონის ნომერი"/>
+                        <input type="number" class="form-control" name="password" id="number" placeholder="ტელეფონის ნომერი" required/>
                     </div>
                 </div>
             </div>
             <div class="form-group ">
-                <a href="#" target="_blank" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button">რეგისტრაცია</a>
+                <a href="#" target="_blank" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button send-form">რეგისტრაცია</a>
             </div>
         </form>
     </div>
